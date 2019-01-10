@@ -13,10 +13,9 @@ function vowels(str) {
     var str = str.toLowerCase()
 
     for(var i = 0 ; i < str.length ; i ++) {
-        for(var j = 0 ; j<vowels.length ; j ++) {
-            if(str[i] === vowels[j]) {
+            if(vowels.includes(str[i])) {
                 count ++
-            }
+            
         }
     }
     return count
