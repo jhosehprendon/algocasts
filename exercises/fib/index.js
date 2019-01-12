@@ -22,7 +22,7 @@ function memoize(fn) {
     }; 
   }
   
-  function slowFib(n) {
+  function slowFib(n) { 
     if (n < 2) {
       return n;
     }
