@@ -19,7 +19,7 @@ function memoize(fn) {
       cache[args] = result;
   
       return result;
-    };
+    }; 
   }
   
   function slowFib(n) {
