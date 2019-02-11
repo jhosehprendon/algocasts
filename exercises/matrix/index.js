@@ -18,7 +18,7 @@
 
 
 function matrix(n) {
-    const results = [];
+    let results = [];
   
     for (let i = 0; i < n; i++) {
       results.push([]);
